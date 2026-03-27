@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoSMS</string>
+    <string name="title_rules">规则管理</string>
+    <string name="add_rule">添加规则</string>
+    <string name="edit_rule">编辑规则</string>
+    <string name="delete_rule">删除</string>
+    <string name="rule_name">规则名称</string>
+    <string name="sender_pattern">发件人匹配模式</string>
+    <string name="content_keywords">内容关键词</string>
+    <string name="action_type">操作类型</string>
+    <string name="reply_content">回复内容</string>
+    <string name="forward_number">转发号码</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="hint_sender_pattern">例如: 138*, 10086, +86*</string>
+    <string name="hint_content_keywords">多个关键词用逗号分隔</string>
+    <string name="action_reply">自动回复</string>
+    <string name="action_forward">转发短信</string>
+    <string name="no_rules">暂无规则，点击添加按钮创建</string>
+    <string name="confirm_delete">确定删除这条规则吗？</string>
+    <string name="permission_required">需要短信权限才能正常工作</string>
+    <string name="request_permission">请求权限</string>
+    <string name="enable_service">启用服务</string>
+    <string name="disable_service">禁用服务</string>
+    <string name="service_status">服务状态: %s</string>
+    <string name="enabled">已启用</string>
+    <string name="disabled">已禁用</string>
+</resources>

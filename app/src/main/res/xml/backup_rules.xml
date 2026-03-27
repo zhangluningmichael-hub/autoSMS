@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- 备份数据库 -->
+    <include domain="database" path="autosms_database"/>
+    <!-- 备份SharedPreferences -->
+    <include domain="sharedpref" path="."/>
+</full-backup-content>
