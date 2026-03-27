@@ -13,10 +13,13 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           
-      - name: Make gradlew executable
+      - name: Generate Gradle Wrapper
         run: |
+          # 如果 gradlew 不存在，生成它
+          if [ ! -f "./gradlew" ]; then
+            ./gradlew.bat wrapper --gradle-version=8.5 || gradle wrapper --gradle-version=8.5
+          fi
           chmod +x ./gradlew
-          ls -la gradlew*
           
       - name: Build with Gradle
         run: ./gradlew assembleDebug
